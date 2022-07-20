@@ -137,9 +137,9 @@ To compute the neuron coverage for a specific layer and set of test data, `neuro
     
     1.  Pass the observation through the network and find the value of each neuron in the layer.
         
-    2.  Rescale the neurons to be in the range \[0, 1\]. If $`n_i^{(l)}`$ denotes the ith neuron in layer $`l`$, then the rescaled neuron is $`\hat{n}_i^{(l)}=\frac{n_i^{(l)}−\min_j n_j^{(l)}}{\max_j n_j^{(l)}−\min_jn_j^{(l)}}`$.
+    2.  Rescale the neurons to be in the range \[0, 1\]. If $n_i^{(l)}$ denotes the ith neuron in layer $l$, then the rescaled neuron is $\hat{n}_i^{(l)}=\frac{n_i^{(l)}−\min_j n_j^{(l)}}{\max_j n_j^{(l)}−\min_jn_j^{(l)}}$.
         
-    3.  Average the rescaled neurons over all the spatial and time dimensions. For example, if the layer outputs data with "SSC" (spatial, spatial, channel) dimensions, then the software averages the neurons over the two spatial dimensions to produce a 1-by-1-by-$`c`$ array of averaged neurons, where $`c`$ is the number of channels in the layer.
+    3.  Average the rescaled neurons over all the spatial and time dimensions. For example, if the layer outputs data with "SSC" (spatial, spatial, channel) dimensions, then the software averages the neurons over the two spatial dimensions to produce a 1-by-1-by-$c$ array of averaged neurons, where $c$ is the number of channels in the layer.
         
     
 2.  Label any averaged neuron with a value that is greater than the activation threshold for at least one observation in the test data as activated.
