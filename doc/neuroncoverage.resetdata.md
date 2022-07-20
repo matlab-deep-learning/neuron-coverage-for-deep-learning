@@ -31,4 +31,4 @@ Updated neuron coverage, returned as a `neuronCoverage` object. The function res
 
 To add new test data to the `neuronCoverage` object, use the `addData` function.
 
-© 1994-2022 The MathWorks, Inc.
+© 2022 The MathWorks, Inc.
