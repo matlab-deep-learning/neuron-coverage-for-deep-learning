@@ -44,4 +44,4 @@ Updated neuron coverage, returned as a `neuronCoverage` object.
 
 The `LayerCoverage` and `AggregateCoverage` properties of the `neuronCoverage` object automatically update to include the additional test data.
 
-© 1994-2022 The MathWorks, Inc.
+© 2022 The MathWorks, Inc.
