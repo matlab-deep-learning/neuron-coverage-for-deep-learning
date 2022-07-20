@@ -39,5 +39,5 @@ Output Arguments
 
 Neuron coverage for each layer, returned as a numeric array. For more information on the neuron coverage metric, see the Algorithms section of the `neuronCoverage` object documentation.
 
-© 1994-2022 The MathWorks, Inc.
+© 2022 The MathWorks, Inc.
 
