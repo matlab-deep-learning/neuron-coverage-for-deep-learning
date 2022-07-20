@@ -185,5 +185,5 @@ Usage notes and limitations:
 For more information, see [Run MATLAB Functions on a GPU](#https://www.mathworks.com/help/parallel-computing/run-matlab-functions-on-a-gpu.html) (Parallel Computing Toolbox).
 
 
-© 1994-2022 The MathWorks, Inc.
+© 2022 The MathWorks, Inc.
 
