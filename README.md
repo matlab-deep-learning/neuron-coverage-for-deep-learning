@@ -1,6 +1,6 @@
 # Neuron Coverage for Deep Learning Networks
 
-This repository enables you to compute neuron coverage for a deep neural network. 
+This repository enables you to compute neuron coverage for a deep neural network. [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=matlab-deep-learning/neuron-coverage-for-deep-learning)
 
 Neuron coverage is a metric for measuring the parts of a network activated by a particular set of test data. This example computes the neuron coverage using neuronCoverage. This implementation of neuron coverage is based on the DeepXplore framework [1]. 
 
